@@ -16,13 +16,14 @@ and open the template in the editor.
         <header>
             <table border="solid" style="width: 100%">
                 <thead>
+                    
                     <tr style="width: 100%; height: 150px">
-                        <th style="width: 20%;"> Logo Empresa</th>
+                        <th style="width: 20%;"><img src="assets/img/roja.jpg" height="300"width="300"></th>
                         <th style="width: 70%;"> Nombre Empresa</th>
-                        <th style="width: 10%;"> <a href="index3.html"> Salir</th>
-                    
-                    </tr>
-                    
+                        <th style="width: 10%;"> <button><a href="index.html">Salir</a></button></th>
+                                            <!-- <a href="index.html"><button>Salir</button></a></th> -->
+                    </tr>                   <!-- <a href="index.html">Salir</a></th> -->
+                     
                 </thead>
                                     
             </table>  
@@ -62,8 +63,44 @@ and open the template in the editor.
                                     <li>Eliminar Aviones</li>    
                             
                             </ul>
-                        <td style="width: 80%;"><h2> Formulario</h2></td>
-                    </tr>
+                        <td style="width: 80%;"><h2> Formulario</h2>
+                            <form method="GET"action="Pagina2.html">
+                                <label>Nombre:</label>
+                                <input type="text"placeholder="Diana Bonil" name="nombre">
+
+                                <label>Fecha de Nacimiento</label>
+                                <input type="date" name="fechaNacimiento">
+
+                                <label>Edad</label>
+                                <input type="number" name="edad"> 
+
+                                <label>Correo</label> 
+                                <input type="email" name="correo"> 
+
+                                <label>Contraseña</label>
+                                <input type="password" name="contra">
+
+                                <label>Genero</label>
+                                <label>Masculino</label>
+                                <input type="radio" value="Masculino" name="btnMasculino">
+                                <label>Femenino</label>
+                                <input type="radio" value="Femenino" name="btnFemenino">
+                            
+                                <input type="submit" name="btonInsertar" value="insertar">
+                                <div>
+                                    <label>Tipo Persona</label>
+                                    <select name="tipo">
+                                        <option value="natural">Natural</option>
+                                        <option value="jurídica">Jurídica</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                    
+                                </div>
+                                
+                            </form>
+                            <button onclick="location.href='tablas.html'"> Enviar</button> 
+                        </td>
+                    </tr> 
                 </thead>
             </table>  
         </section>
