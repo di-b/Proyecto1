@@ -3,15 +3,25 @@
     <head>
         <title>Start Page</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style type="text/css">
+        a{height: 100px;
+          width: 200px;
+          margin: 10px;
+          color:brown;
+          background-color: aqua
+        }    
+        </style>
+        <link href="assets/styles/style1.css" rel="stylesheet" type="text/css"/>
+        <!--<link type= "text/css" href="assets/styles/style1.css">-->
     </head>
     <body>
-        <section>
-        <h1>TITULOS:</h1>
-        <h2>Titulo con h2</h2>
+        <section style="background-color:beige;text-align: center">
+        <h1 style="font-size: 50px; color: brown;">INTRODUCCION A CSS</h1>
+        <!--comments <h2>Titulo con h2</h2>
         <h3>Titulo con h3</h3>
         <h4>Titulo con h4</h4>
         <h5>Titulo con h5</h5>
-        <h6>Titulo con h6</h6>
+        <h6>Titulo con h6</h6>-->
         
         <a href="#Vinculo">Ir a sección </a><!-- vinculo interno-->
         <a href="https://www.google.com/">Ir a google</a><!-- vinculo externo-->
@@ -20,7 +30,8 @@
         <a href="Pagina3.html">Ir a Listas</a><!-- vinculo a otrá página-->
         </section>
         
-        <section>
+        <section class="claseSeccion">
+            
          <h1>PARRAFOS:</h1> 
          <p>
          Lorem ipsum dolor sit <em>amet consectetur adipiscing</em> elit laoreet erat nulla, <b>faucibus venenatis posuere metus lobortis facilisi nibh a urna conubia</b>, ante tristique ut potenti lacus quisque risus fames donec.       
@@ -40,9 +51,7 @@
          <p>
          Risus viverra sem bibendum vitae facilisi eget <em>fringilla facilisis</em>, <strong>odio orci lobortis enim interdum ad eu</strong>, quam parturient mus tempor velit potenti proin.
          </p>
-         TEXTO
-         <br>
-         TEXTO
+         
          
         </section>
         <section id="Vinculo">
@@ -62,7 +71,7 @@
          TEXTO
          <br>
          TEXTO
-         
+         <button class="claseDos">Enviar</button>
         </section>
     </body>
 </html>

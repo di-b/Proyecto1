@@ -1,0 +1,38 @@
+h1{
+    font-size: 50px;
+    color: brown;
+    font-style: italic;
+}
+*{
+    margin: 25px;
+    font-family: fantasy;
+}
+.claseSeccion{
+    background-color: rosybrown;
+    border-style: solid;
+    height: 500px;
+    width: 900px
+}
+.claseDos{
+   background-color: rosybrown;
+    border-style: solid;
+    height: 50px;
+    width: 100px 
+}
+
+#Vinculo{
+    border-style: solid;
+    border-color: black;
+    border-radius: 30px;
+}
+.claseAplicandoColor{
+    background-color:  #C9EEF4 ;
+    color: #4285f4;
+    border-style: solid;
+    border-color: darkblue;
+}
+.claseFuente{
+   text-align: center;
+   font-family: 'Grechen Fuemen', cursive;
+   text-shadow:5px 5px 5px black;
+}
